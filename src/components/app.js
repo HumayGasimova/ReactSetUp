@@ -11,6 +11,7 @@ import React,{
  */
 
 import ThreeDCard from './ThreeDCard/threeDCard';
+import FadeText from './FadeText/fadeText';
 
 /**
  * Styles
@@ -35,6 +36,7 @@ export class App extends Component {
       return(
          <div className="abc">
                <ThreeDCard/>
+               <FadeText/>
          </div>
       );
    }
